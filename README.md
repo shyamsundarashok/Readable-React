@@ -2,7 +2,7 @@
 
 Readable Blog - Created using ReactJS for Udacity's React Nanodegree program
 
-## Loading the App
+## Running the App
 
 The project uses Node.js and the Create-React-App starter.  If you do not have Node >= 6.x installed, you can download it here: [Node.js](https://nodejs.org/en/)
 
