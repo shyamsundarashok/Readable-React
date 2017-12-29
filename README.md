@@ -15,6 +15,7 @@ git clone https://github.com/TechnicalDev/Readable-React.git
     - `npm install`
     - `node server`
 * In another terminal window, install and start the application
+    - `cd frontend`
     - `npm install`
     - `npm start`
 
