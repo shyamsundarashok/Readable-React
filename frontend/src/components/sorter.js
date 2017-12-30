@@ -12,9 +12,9 @@ const Sorter = ({ content, sortBy, onSelectSortBy }) => {
 
   const BUTTONS = ['Sort By'];
 
-  function renderDropdownButton(title) {
+  function renderDropdownButton(title,i) {
     return (
-        <DropdownButton bsStyle='default' title={title} 
+        <DropdownButton bsStyle='default' title={title} key={i} id={`dropdown-basic-${i}`}
           value={getValueFromParams(sortBy)} onSelect={(event) => onSelectSortBy(content)(...getParamsFromValue(event))}>
           <MenuItem eventKey="voteScore-descending">Score:High-Low</MenuItem>
           <MenuItem eventKey="voteScore-ascending">Score:Low-High</MenuItem>

@@ -7,7 +7,6 @@ import Stats from './stats';
 import { CONTENT_POSTS } from '../actions/constants';
 import ContentControl from './content-control';
 import { formatDate } from '../utils/helper';
-import whiteSpace from './white-space';
 
 const PostSummary = ({ id, title, author, timestamp, comments = [], voteScore, onUpvotePost, onDownvotePost }) => (
   <div className='content-container-post'>    
