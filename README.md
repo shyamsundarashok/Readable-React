@@ -28,15 +28,17 @@ A new browser window should automatically open displaying the app.  If it doesn'
 The "Readable" blog has four views:
 ```
 Default/Main View
-    Lists all available categories, which should link to a category view for that category.These links open the 
-    the below mentioned "Category View".
+    Lists all available categories, which should link to a category view for that category.
+    These links open the below mentioned "Category View".
     Lists all of the available posts.
-    Has a dropdown for changing the sort method for the list to order by voteScore and order by timestamp.
+    Has a dropdown for changing the sort method for the list to order by voteScore 
+    and order by timestamp.
     Has a button for adding a new post.This opens the below mentioned "Create View".
 Category View
-    Identical to the Default/Main view, but filtered to only include list of posts with the selected category.
+    Identical to the Default/Main view, but filtered to only include list of posts 
+    with the selected category.
 Post Detail View
-    Shows the details of a post, including: Title, Body, Author, timestamp (in user readable format), and vote score.
+    Shows the details of a post, including: Title, Body, Author, timestamp, and vote score.
     Lists all of the comments for that post.
     Has buttons to edit or delete the post.Edit button open sthe belowmnetioned "Edit View".
     Has a button to add a new comment.This opens at comment form to add commnets info.
