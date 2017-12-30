@@ -26,7 +26,7 @@ A new browser window should automatically open displaying the app.  If it doesn'
 ## Using the App
 
 The "Readable" blog has four views:
-
+```
 Default/Main View
     Lists all available categories, which should link to a category view for that category.These links open the 
     the below mentioned "Category View".
@@ -45,6 +45,7 @@ Create/Edit View
     Has a form to create new post or edit existing posts.
     When editing, existing data should be populated in the form.
 
+```
 Posts and comments, in all views where they are displayed, display their current score and have controls to increment or decrement the Vote Score for that post and comment. Posts  display the number of comments associated with the post.
 
 
