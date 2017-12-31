@@ -13,11 +13,11 @@ const Categories = ({ location, categories }) => (
     <div className='sidebar-section-content'>
       <Nav bsStyle="pills" stacked>
         {categories.map((category, index) => (
-          <NavItem eventKey={index} key={index} href={`/categories/${category.name}`}>
+          <NavItem eventKey={index} key={index} href={`/${category.name}`}>
             {capitalizeFirst(category.name)}
           </NavItem>         
         ))}
-      </Nav>
+      </Nav>     
     </div>
   </div>
 )

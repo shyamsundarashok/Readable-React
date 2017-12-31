@@ -8,10 +8,10 @@ import { CONTENT_POSTS } from '../actions/constants';
 import ContentControl from './content-control';
 import { formatDate } from '../utils/helper';
 
-const PostSummary = ({ id, title, author, timestamp, comments = [], voteScore, onUpvotePost, onDownvotePost }) => (
+const PostSummary = ({ id, title, author,category, timestamp, comments = [], voteScore, onUpvotePost, onDownvotePost }) => (
   <div className='content-container-post'>    
     <div className='post-summary'>
-      <Link to={`/posts/${id}`}>
+      <Link to={`/${category}/${id}`}>
         <h2 className='heading'>{title}</h2>
       </Link>
       <div className='post-info'>
