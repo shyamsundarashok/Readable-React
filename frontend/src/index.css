@@ -183,6 +183,10 @@ html, body, #root {
   margin-right: 12px;
 }
 
+.commentsCount{
+  color: rgb(14, 165, 192);
+}
+
 form {
   flex-grow: 1
 }

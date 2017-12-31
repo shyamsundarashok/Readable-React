@@ -17,7 +17,7 @@ const ContentControl = ({ type, id, commentsCount, history, match, deletePost, d
       <div className='content-control-item'>
         <FaCommentO />
         <WhiteSpace />
-        <span>{commentsCount} comments</span>
+        <span className='commentsCount'>{commentsCount} comments</span>
       </div>
     }
     {type === 'posts' ? 
